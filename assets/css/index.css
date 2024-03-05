@@ -1,3 +1,29 @@
-body {
-    background-color: whitesmoke;
+@font-face {
+  font-family: "Felix-Black";
+  src: url("../fonts/FellixTRIAL-Black.otf");
 }
+
+body {
+  background-color: whitesmoke;
+  font-family: "Felix-Black";
+}
+
+.presentation-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.presentation-content {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.presentation-content img{
+    border-radius: 35px;
+    object-fit: cover;
+  }
