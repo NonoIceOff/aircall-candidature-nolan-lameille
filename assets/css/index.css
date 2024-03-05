@@ -1,29 +1,222 @@
 @font-face {
-  font-family: "Felix-Black";
-  src: url("../fonts/FellixTRIAL-Black.otf");
+  font-family: "Felix-Bold";
+  src: url("../fonts/FellixTRIAL-Bold.otf");
+}
+
+@font-face {
+  font-family: "Felix-Medium";
+  src: url("../fonts/FellixTRIAL-Medium.otf");
+}
+
+@font-face {
+  font-family: "Felix-Regular";
+  src: url("../fonts/FellixTRIAL-Regular.otf");
+}
+
+@font-face {
+  font-family: "Felix-Thin";
+  src: url("../fonts/FellixTRIAL-Thin.otf");
 }
 
 body {
   background-color: whitesmoke;
-  font-family: "Felix-Black";
+  font-family: "Felix-Bold";
 }
 
 .presentation-box {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: space-around;
+  height: 80vh;
+  margin-left: 16px;
+  margin-right: 46px;
+  margin-top: 10vh;
 }
 
-.presentation-content {
+.presentation-content-image {
   text-align: center;
   color: black;
   padding: 20px;
   max-width: 800px;
 }
 
-.presentation-content img{
-    border-radius: 35px;
-    object-fit: cover;
+.presentation-content-text {
+  text-align: left;
+  color: #012635;
+  padding: 20px;
+  max-width: 800px;
+  justify-content: left;
+}
+
+.presentation-content-image img {
+  border-radius: 35px;
+  margin-top: 50px;
+  object-fit: cover;
+}
+
+.presentation-content-text h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.presentation-content-text h3 {
+  font-size: 24px;
+  font-family: "Felix-Thin";
+  line-height: 1.4;
+  margin-top: -24px;
+}
+
+.formulaire {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: 1px solid gray;
+  border-radius: 32px;
+  width: 490px;
+}
+
+.form-work-email {
+  padding: 0 8px;
+  font-size: 16px;
+  height: 64px;
+  width: 290px;
+  line-height: 64px;
+  border-style: none;
+  border-radius: 32px;
+  margin-left: 6px;
+}
+
+.formulaire-button {
+  font-size: 16px;
+  background-color: #20b486;
+  color: white;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 302px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-right: 6px;
+  font-family: "Felix-Medium";
+}
+
+.trusted-by {
+  color: #151a2880;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-family: "Felix-Medium";
+  padding-bottom: 64px;
+}
+
+.section-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-family: "Felix-Medium";
+}
+
+.section-part p {
+  margin-bottom: 40px;
+}
+
+.section-part img {
+  margin-left: 50px;
+}
+
+.red-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(#ea3815, #fe6837);
+  border-radius: 60px 60px 0px 0px;
+  padding-top: 10px;
+  height: 55vh;
+}
+
+.red-section-part-txt {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 130px;
+}
+
+.red-section-part-img {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-right: 130px;
+}
+
+.red-section-part-txt h2 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.red-section-part-txt p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-family: "Felix-Regular";
+  line-height: 1.4;
+}
+
+.red-section-part-txt button {
+  font-size: 16px;
+  background-color: white;
+  color: #ea3815;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-right: 6px;
+  font-family: "Felix-Medium";
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.red-section-part-img img {
+  margin-top: 16px;
+}
+
+.white-section-transition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 60px 60px 0px 0px;
+  padding-top: 10px;
+  height: 50vh;
+  margin-top: -64px;
+}
+
+.white-section-transition-part-txt {
+  display: flex;
+  flex-direction: row;
+  color: #012635;
+}
+
+.white-section-transition-part-txt h2 {
+    font-size: 40px;
+    margin-bottom: 0px;
   }
+
+.white-section-transition-part-img {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-right: 130px;
+}
