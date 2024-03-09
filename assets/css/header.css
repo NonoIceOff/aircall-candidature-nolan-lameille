@@ -1,22 +1,20 @@
 body {
   margin: 0;
-  padding: 0; /* Ajoutez cette ligne pour éviter tout padding par défaut */
+  padding: 0; 
 }
 
-/* Font Face */
+
 @font-face {
   font-family: "Felix-Medium";
   src: url("../fonts/FellixTRIAL-Regular.otf");
 }
 
-/* Header Styles */
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Header Navigation Common Styles */
 .header-nav,
 .header-nav2 {
   display: flex;
@@ -28,7 +26,6 @@ header {
   align-items: center;
 }
 
-/* Header Navigation 1 */
 .header-nav {
   background-color: #06ab78;
   color: white;
@@ -36,7 +33,6 @@ header {
   font-size: 15px;
 }
 
-/* Header Navigation 2 */
 .header-nav2 {
   display: flex;
   flex-direction: row;
@@ -50,7 +46,6 @@ header {
   font-size: 16px;
 }
 
-/* Header Link Styles */
 .header-a {
   color: white;
   text-decoration: none;
@@ -76,7 +71,6 @@ header {
   padding-left: 10px;
 }
 
-/* Header Part 1 Styles */
 .header-part1 {
   display: flex;
   background-color: #20b486;
@@ -92,7 +86,6 @@ header {
   margin-left: 15px;
 }
 
-/* Header Part 2 Styles */
 .header-part2 {
   background-color: #06ab78;
   display: flex;
@@ -102,14 +95,12 @@ header {
   align-items: center;
 }
 
-/* Header 2 Parts Styles */
 .header2-parts {
   display: flex;
   flex-direction: row;
   margin-right: 64px;
 }
 
-/* Media Queries */
 @media only screen and (max-width: 768px) {
   .header-part1,
   .header-part2,
@@ -134,7 +125,6 @@ header {
   }
 }
 
-/* Logo Container Styles */
 .logo-container {
   display: flex;
   align-items: center;
@@ -145,7 +135,6 @@ header {
   margin-right: 64px; 
 }
 
-/* Header 2 Parts Styles */
 .header2-parts {
   display: flex;
   flex-direction: row;
